@@ -7,6 +7,7 @@ widget for embedding in sites
 
 ## Установка
 ```
+git clone https://github.com/h3lpkey/fintab_widget
 npm install
 npm run build
 ```
