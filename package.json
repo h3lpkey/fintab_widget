@@ -1,0 +1,53 @@
+{
+  "name": "fintab_widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fintab_widget.js",
+  "private": true,
+  "scripts": {
+    "test": "tape *.js",
+    "build": "webpack --config config/webpack.config.js",
+    "watch": "webpack --watch --config config/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "bootstrap-loader": "^2.0.0-beta.20",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "laravel-mix": "^1.0",
+    "lodash": "^4.17.10",
+    "node-sass": "^4.9.2",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "*",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "bootstrap": "^4.1.2",
+    "bootstrap4-plus-jquery": "^4.0.0-alpha.2.4",
+    "expose-loader": "^0.7.5",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "npm-watch": "^0.3.0",
+    "numeral": "^2.0.6",
+    "popper.js": "^1.14.3",
+    "postcss-import": "^11.1.0",
+    "repair": "^0.1.1",
+    "vue-awesome": "^3.0.5",
+    "vue-moment": "^4.0.0",
+    "vue-template-compiler": "^2.5.16",
+    "vuejs-datepicker": "^1.5.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
